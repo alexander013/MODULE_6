@@ -34,8 +34,8 @@ public class MODUL_6_5 {
     @Test
     public void TestZad_1()
     {
-        var Teg_P_Locator = By.cssSelector("section.header p");
-        var Teg_A_Locator = By.cssSelector("div[class*='text'] > a");
+        var Teg_P_Locator = By.cssSelector("p");
+        var Teg_A_Locator = By.cssSelector("div.text > a");
         var A_Teg_Locator = By.cssSelector("section > div.text:nth-of-type(2) > a");
     }
 
